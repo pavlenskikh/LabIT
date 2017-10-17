@@ -7,6 +7,8 @@ import java.util.Iterator;
  */
 public class Demo {
     public static void main(String[] args) throws Exception {
+        System.out.println("====Array Element Using");
+        ArrayElement arrayElement = new ArrayElement();
         System.out.println("==== Part1");
 
         // test add
