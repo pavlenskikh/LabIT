@@ -7,10 +7,6 @@ public class Writable {
         return lastWritten;
     }
 
-    public void setLastWritten(String lastWritten) {
-        this.lastWritten = lastWritten;
-    }
-
     public String write(String string){
         return "Writable's written "+string;
     }
